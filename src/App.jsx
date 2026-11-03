@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./pages/Hero";
-import Footer from "./pages/Footer";
+import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 import Productos from "./pages/Productos";
 import PageProduct from "./pages/PageProduct";
