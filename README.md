@@ -1,16 +1,33 @@
-# React + Vite
+# PlantCo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de tienda de plantas desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+## Desarrollo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instalá las dependencias e iniciá el servidor de desarrollo:
 
-## React Compiler
+```sh
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Usuarios de demostración
 
-## Expanding the ESLint configuration
+El login es una simulación local: no hay servidor de autenticación. Estas credenciales son ficticias, solo para practicar y no deben reutilizarse como contraseñas reales.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Rol | Email | Contraseña |
+|---|---|---|
+| Admin | `admin@plantco.test` | `admin123` |
+| Cliente | `cliente@plantco.test` | `cliente123` |
+
+El visitante es quien no ha iniciado sesión.
+
+## Administración
+
+El panel `/admin` y sus módulos requieren una sesión con rol admin. Los cambios de productos, categorías y tags se guardan en `localStorage` del navegador de esta demostración local.
+
+Al eliminar un tag, se quita de todos los productos que lo tenían; los productos pueden quedar sin tags. Los cambios de título de categoría también actualizan la categoría asociada a sus productos.
+
+## Capturas
+
+El recorrido visual está en [docs/README.md](./docs/README.md): incluye el inicio, catálogo filtrado, detalle, carrito, compra confirmada y panel de administración.

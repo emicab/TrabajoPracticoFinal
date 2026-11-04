@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "title": "Monstera deliciosa",
+    "price": 18500,
+    "description": "Planta tropical de hojas grandes y recortadas, ideal para dar un toque natural a interiores luminosos.",
+    "category_id": 1,
+    "tags": [{ "title": "Destacado" }],
+    "pictures": [],
+    "care_instructions": [
+      "Ubicar en un lugar con luz indirecta brillante.",
+      "Regar cuando los primeros centímetros del sustrato estén secos.",
+      "Evitar el encharcamiento y limpiar sus hojas periódicamente."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ficus lyrata",
+    "price": 22000,
+    "description": "Ficus de hojas grandes con forma de violín, una pieza llamativa para espacios interiores.",
+    "category_id": 1,
+    "tags": [{ "title": "Destacado" }],
+    "pictures": [],
+    "care_instructions": [
+      "Colocar cerca de una ventana con luz abundante e indirecta.",
+      "Regar cuando la superficie del sustrato se haya secado.",
+      "Evitar moverlo con frecuencia y protegerlo de corrientes de aire."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sansevieria",
+    "price": 12500,
+    "description": "Planta resistente de hojas verticales, adecuada para distintos ambientes interiores.",
+    "category_id": 1,
+    "tags": [{ "title": "Planta de interior" }],
+    "pictures": [],
+    "care_instructions": [
+      "Tolera distintos niveles de luz, preferentemente luz indirecta.",
+      "Regar con moderación y dejar secar el sustrato entre riegos.",
+      "Usar una maceta con buen drenaje."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Pothos colgante",
+    "price": 9800,
+    "description": "Planta de follaje colgante que aporta verde a estantes y rincones luminosos.",
+    "category_id": 1,
+    "tags": [],
+    "pictures": [],
+    "care_instructions": [
+      "Ubicar con luz indirecta.",
+      "Regar cuando la capa superior de la tierra esté seca.",
+      "Podar los tallos para mantener la forma deseada."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Maceta de cerámica",
+    "price": 7500,
+    "description": "Maceta decorativa de cerámica para complementar tus plantas de interior.",
+    "category_id": 2,
+    "tags": [],
+    "pictures": [],
+    "care_instructions": [
+      "Limpiar con un paño suave.",
+      "Si se usa como cubremaceta, retirar el agua acumulada después del riego."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Maceta de terracota",
+    "price": 6200,
+    "description": "Maceta clásica de terracota, apropiada para plantas que necesitan un sustrato aireado.",
+    "category_id": 2,
+    "tags": [],
+    "pictures": [],
+    "care_instructions": [
+      "Limpiar con un cepillo suave.",
+      "Comprobar el drenaje antes de plantar."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Regadera de acero",
+    "price": 8900,
+    "description": "Regadera reutilizable para facilitar el cuidado diario de tus plantas.",
+    "category_id": 3,
+    "tags": [],
+    "pictures": [],
+    "care_instructions": [
+      "Enjuagar y secar después de usar.",
+      "Guardar en un lugar seco."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Tijera de poda",
+    "price": 5400,
+    "description": "Herramienta práctica para retirar hojas secas y mantener tus plantas.",
+    "category_id": 3,
+    "tags": [],
+    "pictures": [],
+    "care_instructions": [
+      "Limpiar las hojas después de cada uso.",
+      "Guardar cerrada y en un lugar seco."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Olivo",
+    "price": 28500,
+    "description": "Árbol de olivo joven para patios y espacios luminosos.",
+    "category_id": 1,
+    "tags": [],
+    "pictures": [],
+    "care_instructions": [
+      "Ubicar en un lugar con varias horas de sol directo.",
+      "Regar cuando la superficie del sustrato esté seca.",
+      "Asegurar un buen drenaje."
+    ]
+  }
+]
